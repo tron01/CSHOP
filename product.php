@@ -239,13 +239,14 @@ if(isset($_POST['review_submit'])){
                  <p class="price"><?php echo $get_product['0']['price'] ?></p>
                  
                  <?php
+
 										$productSoldQtyByProductId=productSoldQtyByProductId($con,$get_product['0']['id']);
 										
 										$pending_qty=$get_product['0']['qty']-$productSoldQtyByProductId;
 										
 										$cart_show='yes';
 										
-                    if($get_product['0']['qty']>$productSoldQtyByProductId || $get_product['0']['qty']!=0){
+                    if($get_product['0']['qty']>$productSoldQtyByProductId && $get_product['0']['qty']!=0){
 											$stock='In Stock';			
 										}else{
 											$stock='Not in Stock';
