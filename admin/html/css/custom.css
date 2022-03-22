@@ -1,0 +1,37 @@
+
+.card {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    border: 10 solid transparent;
+    -webkit-box-shadow: 0 0 20px #00000014;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card .card-body {
+    float: left;
+    padding: 1.25em;
+    position: relative;
+    width: 100%;
+   
+    
+
+}
+.card .box-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.card .box-title2 {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 0;
+    color: #000;
+    text-decoration-line: underline;
+}
+.box-title2 a{
+    color: #000;
+}
+
+

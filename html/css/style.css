@@ -1,0 +1,304 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background: silver;
+}
+
+
+/*navbar*/
+.navigation-bar{
+  width: 100%;
+  height: 70px;
+  background: #904290 ;
+}
+/*nav logo*/
+.logo {
+    margin: 10px;
+    width: 100px ; 
+    float: left;
+    }
+.logo .brand{
+ color: #fff;
+ font-size: 20px;
+ text-decoration: none;
+ 
+}
+
+.brand::hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.brand::before {
+  content: "C"; 
+  font-size: 35px;
+  font-weight: bold;
+  
+  color: #fb3531;
+  position: relative;
+  bottom: 2px;
+}
+/*nav logo end*/
+/*nav search*/
+
+.search-area{
+  width: 550px;
+  height: 70px;
+  float: left;
+  margin-left: 50px;
+  
+}
+.search_box{
+width: 500px;
+padding: 10px;
+margin-top: 10px;
+float: left;
+
+}
+.search_btn{
+  float: left; 
+  margin-top: 8px;
+  padding:12px;
+  border-radius: 0;
+  
+
+}
+/*nav search end */
+/*user menu*/
+.user-menu{
+  width: 300px;
+  height: 68px;
+  float: right;
+ 
+  }
+
+.user-menu ul{
+  float: right;
+  }
+.user-menu ul li{
+  list-style: none;
+  float: left;
+  width: 125px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}    
+.user-menu li:hover{
+  background: #14ba15;
+}
+.user-menu ul li a{
+  
+  text-decoration: none;
+  color: white;
+  display: block;
+}    
+
+.user-menu button{
+  color: #fff;
+  height: 40px;
+  line-height: 30px;
+}
+/* end user menu*/
+/*nav end*/
+ /*sliderbox*/ 
+ .slider-area{
+  width: 100%;
+  height: 500px;
+}
+.slider-area .slider img{
+  width: 100%;
+  height: 500px;
+}
+.bx-wrapper{
+  border: none !important;
+}
+
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager{
+  bottom: 30px !important;
+} 
+ /*slider-content*/
+ .slider-content{
+   position: absolute;
+   top: 150px;
+   left:100px;
+   width: 600px;
+   }
+
+/*end slider box*/
+/*product section*/
+
+.product-section{
+  width: 100%;
+  background: #fff;
+  padding: 50px 10px;
+  margin: 15px 0;
+} 
+/*heading*/
+.section-heading{
+  width: 100%;
+  height: 40px;
+
+} 
+.section-heading .heading{
+  font-weight: 400;
+  border-bottom: 2px solid;
+  padding-bottom: 7px;
+  display: inline-block;
+}
+/*product card*/
+.section-product-cards {
+  width: 100%;
+  margin-top: 30px;
+
+}
+/* single product card*/
+.product-card{
+  width: 250px;
+  height: 400px;
+  box-shadow:0px 2px 10px rgba(0,0,0,0.3)  ;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 20px;
+}
+/*product image*/
+.product-card .product-image img{
+  width: 100%;
+  height: 300px;
+}
+
+.card-contents{
+  position: absolute;
+  background: rgba(0,0,0,0.3);
+  top: -400px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  visibility: hidden;
+  transition: .2s all ease-in-out;
+  }
+ .product-card:hover .card-contents{
+   visibility: visible;
+   top:0;
+ } 
+ .cart-btn{
+   margin: 130px 100px;
+ } 
+ .product-details{
+  padding: 10px;
+}
+.product-name{
+  font-weight: 400;
+  color: #575253;
+}
+.product-price{
+  font-weight:bold;
+  font-size:17px;
+  }
+.product-prize span{
+  margin-left:20px;
+}
+/*end product section*/
+
+/* owl carousel product card slider*/
+
+.section-product-cards
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  background: greenyellow;
+  color:#000 ;
+  line-height: 40px;
+  position: absolute;
+  outline: none;
+}
+.section-product-cards
+ .owl-carousel .owl-nav button.owl-next{
+right: 0;
+top:150px;
+}
+
+.section-product-cards 
+.owl-carousel .owl-nav button.owl-prev{
+  left: 0;
+  top:150px;
+  }  
+/* owl carousel product card slider end*/
+
+
+
+/* for mobile view*/
+@media screen and (max-width:500px) {
+  
+  .user-menu{
+    width: 200px;
+    height: 60px;
+    position:absolute;
+    right: 0;
+ 
+  }
+  .user-menu ul li{
+  width: 90px;
+  font-size: 12px;
+  }
+  .search-area{
+    width: 100% !important;
+    position: initial;
+    margin-left: 0px;
+    background: #fff;
+    height: 70px;
+
+   } 
+  .search_box{
+    width:450px !important;
+    margin-top: 10px;
+    margin-left: 20px;
+
+  }
+  .search_btn{
+    margin-left: -43px;
+
+  }
+  .slider-area{
+    float: left;
+    height: 250px;
+    margin-top: -10px;
+  }
+  .slider-area .slider img{
+    height: 250px;
+
+  }
+  .slider-content{
+    width: 300px;
+    top:130px;
+    left: 50px;
+
+  }
+  .slider-content h3{
+    font-size: 15px;
+
+  }
+.product-section{
+   float: left;
+}
+.product-card{
+  margin: 10px 90px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+/* mobileview end*/

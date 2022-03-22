@@ -1,0 +1,94 @@
+
+.bt-mr-5{
+    margin-bottom: 5px;
+    }
+
+.card {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+    border: 10 solid transparent;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+}
+.card .card-body {
+    float: left;
+   
+    position: relative;
+    width: 100%;
+   
+
+}
+.card .box-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.card .box-title2 {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 0;
+    color: #000;
+    text-decoration-line: underline;
+}
+.box-title2 a{
+    color: #000;
+}
+.main{
+    float: left;
+    padding: 1.9em;
+        width: 100%;
+  }
+
+.table{
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+color: #868e96;
+font-size: 12px;
+font-weight: 400;
+padding: .75em 1.25em;
+text-transform: uppercase;
+}
+.table .thead{
+    width: 100%;
+
+}
+
+
+
+.mybadge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 9px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #777;
+    border-radius: 10px;
+}
+
+
+.red{
+	background-color:#dc3545;
+	
+}
+
+.green {
+	background-color:#20c997;
+	
+	
+}
+ .grey{
+ color:#6c757d;
+ }
+ 
+ .or{
+	 background-color:#fd7e14;
+	
+ }

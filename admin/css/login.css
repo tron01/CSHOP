@@ -1,0 +1,52 @@
+body{
+    background-color:#343a40;
+}
+login-content {
+    max-width: 540px;
+    margin: 8vh auto;
+}
+.login-form {
+    background: #fff;
+    padding: 30px 30px 20px;
+    border-radius: 2px;
+}
+.login-form .btn {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px;
+    border: 0;
+}
+.btn, .button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    border-radius: 3;
+    cursor: pointer;
+}
+btn {
+    border-radius: 3px;
+}
+.btn, button, input, textarea {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 !important;
+}
+h4{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+h4:hover{
+   color:red;
+    
+}
+.container{
+    margin-top: 100px;
+    
+
+}

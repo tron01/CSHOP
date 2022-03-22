@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="css/jquery.bxslider.min.css" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
+<style>
+.box1{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+
+
+}
+.box2{
+  
+  flex-direction: row;
+  align-items: flex-end;
+
+}
+.box3{
+  flex: 1;
+}
+.box4{
+  flex: 1;
+}
+  </style>
+  
+</head>
+
+<body>
+<!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+    <a class="navbar-brand brand" style="  color: #fff;" href="#">shop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse box1"  id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+     
+     
+        <!-- form -->
+        <form class="form-inline my-2 my-lg-0 box2">
+          <input class="form-control mr-sm-2" style="width:260px;" type="search"placeholder="Search all items..." aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <!-- end form -->
+      
+
+        <!--dropdown menu-->
+        <li class="nav-item dropdown  user-menu ml-30 box3">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i> My Account</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">your Orders</a>
+            <a class="dropdown-item" href="#">Account settings</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item bg-danger" href="#">logout</a>
+          </div>
+        </li>
+        <li class="nav-item user-menu  ml-30 box4"> <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+      </ul>
+    
+      
+
+    </div>
+     
+  </nav>
+  <!-- navbar end -->
+
+  <!--slider area-->
+  <div class="slider-area">
+    <div class="slider">
+      <!--slide1-->
+      <div><a href="#">
+          <img src="img/msi gpu.webp"></a>
+        <div class="slider-content">
+          <h3 class="text-white text-capitalize">Lorem ipsum dolor sit amet consectetur.</h3>
+        </div>
+      </div>
+      <!-- end slide1-->
+      <div><a href="#">
+          <img src="img/msi gpu.webp"></a>
+      </div>
+      <div><a href="#"><img src="img/msi gpu.webp"></a>
+      </div>
+    </div>
+  </div>
+  <!--end slider area-->
+
+   <!--wrokarea-->
+   <div class="container-fluid">
+    <!--product section-->
+    <section class="product-section">
+      <div class="section-heading">
+        <h3 class="heading">Latest product</h3>
+      </div>
+
+      <div class="section-product-cards">
+       
+       <div class="owl-carousel">
+
+        <!--product card-->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+  
+      </div>
+    </div>
+</section>
+    <!--end product section-->
+
+
+  </div>
+  
+   <!--endwrokarea-->
+  
+   <!--wrokarea2-->
+   <div class="container-fluid">
+    <!--product section-->
+    <section class="product-section">
+      <div class="section-heading">
+        <h3 class="heading">Latest product</h3>
+      </div>
+
+      <div class="section-product-cards">
+       
+       <div class="owl-carousel">
+
+        <!--product card-->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+         <!--product card-->
+         <div class="product-card">
+          <div class="product-image">
+            <img src="img/msi gpu.webp" alt="prodct-name">
+          </div>
+          <!--product hovered contents-->
+          <div class="card-contents">
+            <button type="button" class="btn btn-warning cart-btn">
+              <i class="fas fa-cart-plus"></i>
+            </button>
+          </div>
+          <!-- end product hovered contents-->
+          <!--product details-->
+          <div class="product-detils">
+            <!--product name-->
+            <h5 class="product-name">gpu</h5>
+            <!--product price-->
+            <p class="product-price">
+              <small class="text-danger"><s>Rs.400</s></small>
+              <span class="text-success">Rs.340</span>
+            </p>
+            <!--product price end-->
+          </div>
+          <!--end product details-->
+        </div>
+        <!-- end product card-->
+  
+      </div>
+    </div>
+</section>
+    <!--end product section-->
+
+
+  </div>
+  
+   <!--end wrokarea2-->
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <!--jquery-->
+  <script src="js/jquery.js"></script>
+  <!--jquery-->
+  <script src="js/jquery.bxslider.min.js"></script>
+  <!--jquery-->
+  <script src="js/owl.carousel.js"></script>
+  <!--jquery-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!--jquery-->
+  <script src="js/bootstrap.min.js"></script>
+  <!--fontawesomicon-->
+  <script src="js/all.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

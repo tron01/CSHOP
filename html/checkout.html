@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="css/jquery.bxslider.min.css" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
+</head>
+
+<body style="background:#fff;">
+
+  <div class="container-fulid" style="background:#fff;">
+
+    <div class="row">
+      <div class="col-md-8">
+
+
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn  btn-info" type="button" disabled data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Checkout method
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse disabled" aria-labelledby="headingOne"
+              data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="container">
+
+
+                  <div class="row">
+
+                    <div class="col-md-5">
+                      <form role="form" method="post" action="register.php">
+                        <fieldset>
+                          <p class="text-uppercase pull-center"> SIGN UP:</p>
+
+                          <div class="form-group">
+                            <input type="text" name="username" id="username" class="form-control input-lg"
+                              placeholder="username">
+                          </div>
+
+                          <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control input-lg"
+                              placeholder="Email Address">
+                          </div>
+
+                          <div class="form-group">
+                            <input type="password" name="password" id="password" class="form-control input-lg"
+                              placeholder="Password">
+                          </div>
+
+                          <div class="form-group">
+                            <input type="password" name="password2" id="password2" class="form-control input-lg"
+                              placeholder="Password2">
+                          </div>
+
+                          <input type="submit" class="btn btn-lg btn-primary" value="Register">
+                          <br><br>
+                        </fieldset>
+                      </form>
+                    </div>
+
+                    <div class="col-md-2">
+                      <!-------null------>
+                    </div>
+
+                    <div class="col-md-5">
+                      <form role="form">
+                        <fieldset>
+                          <p class="text-uppercase"> Login: </p>
+
+                          <div class="form-group">
+                            <input type="email" name="username" id="username" class="form-control input-lg"
+                              placeholder="username">
+                          </div>
+                          <input type="password" name="password" id="password" class="form-control input-lg"
+                            placeholder="Password">
+
+                          <br>
+                          <input type="submit" class="btn btn-md btn-danger" value="Sign In">
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-info  text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Adrdress information
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Adrdress info ma
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-info  text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Payement information
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by
+                default.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" style="background:#fff;">
+        <div class="order-details">
+          <h5 class="order-details__title">Your Order</h5>
+          <div class="order-details__item">
+
+            <div class="single-item">
+              <div class="single-item__thumb">
+                <img src="img/msi gpu.webp" />
+              </div>
+              <div class="single-item__content">
+                <a href="#"> name</a>
+                <span class="price">10000</span>
+              </div>
+              <div class="single-item__remove">
+                <a href="javascript:void(0)" onclick="manage_cart('<?php echo $key?>','remove')"><i
+                    class="icon-trash icons"></i></a>
+              </div>
+            </div>
+            <?php } ?>
+          </div>
+          <div class="ordre-details__total">
+            <h5>Order total</h5>
+            <span class="price">1000
+              <?php echo $cart_total?>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+  <!--jquery-->
+  <script src="js/jquery.js"></script>
+  <!--jquery-->
+  <script src="js/jquery.bxslider.min.js"></script>
+  <!--jquery-->
+  <script src="js/owl.carousel.js"></script>
+  <!--jquery-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!--jquery-->
+  <script src="js/bootstrap.min.js"></script>
+  <!--fontawesomicon-->
+  <script src="js/all.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
