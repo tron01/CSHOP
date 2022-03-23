@@ -122,7 +122,7 @@ $num6=mysqli_num_rows($res6);
     <div class="card">
       <div class="card-body">
         <h5 class="box-title1">Brand</h5>
-        <p class="card-text">8</p>
+        <p class="card-text"><?php echo $num6;?></p>
        
       </div>
     </div>

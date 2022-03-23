@@ -34,13 +34,13 @@
                  <div class="card-body">
                     <div class="d-flex justify-content-between">
                     <p class="small"><a href="#!" class="text-muted"></a></p>
-                    <p class="small text-danger"><s><?php echo $list['price'] ?></s></p>
+                    <p class="small text-danger"><s><?php echo $list['mrp'] ?></s></p>
                     </div> 
                      
                     <div class="d-flex justify-content-between mb-3">
                     <a href="product.php?id=<?php echo $list['id']?>" class="text-dark" style="cursor:pointer">
                        <h5 class="mb-0"><?php echo $list['name'] ?></h5></a>
-                       <h5 class="text-success mb-0"><?php echo $list['mrp'] ?></h5>
+                       <h5 class="text-success mb-0"><?php echo $list['price'] ?></h5>
                       </div>
               
                   </div>
