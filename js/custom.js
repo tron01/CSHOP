@@ -59,16 +59,18 @@ function send_message(){
     
   
     if(type=='update'){
-      var qty=jQuery("#"+pid+"qty").val();
-    
+		   
+		var qty=jQuery("#"+pid+"qty").val();
+       
       
     } else{
       var qty=jQuery("#qty").val(); 
     
     }
    
- 
-    jQuery.ajax({
+ if(qty>0){
+	 
+	jQuery.ajax({
         url: "manage_cart.php",
         type: "post",
         data: 'pid='+pid+'&qty='+qty+'&type='+type,
@@ -80,6 +82,8 @@ function send_message(){
         }
   
       });
+ }
+    
    
     
    }

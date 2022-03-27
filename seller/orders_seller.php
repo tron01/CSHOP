@@ -32,9 +32,9 @@ $res=mysqli_query($con,$sql);
                     <tbody>
                     <?php
                      $seller=$_SESSION['SELLER_LOGIN'];
+
+                    $res=mysqli_query($con,"select  distinct(orders.id),orders.*,order_details.seller_id,order_status.name as order_status from orders,order_status,order_details where order_status.id=orders.order_status and orders.id=order_details.order_id  and order_details.seller_id='$seller'");
                     
-					$res=mysqli_query($con,"select  distinct(orders.id),orders.*,order_details.seller_id,order_status.name as order_status from orders,order_status,order_details where order_status.id=orders.order_status and orders.id=order_details.order_id  and order_details.seller_id='$seller'");
-                     
                     
                     
 						while($row=mysqli_fetch_assoc($res)){
