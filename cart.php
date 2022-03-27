@@ -156,7 +156,7 @@ if(isset($_SESSION['cart'])){
             <img src="<?php echo PRODUCT_IMAGE_SITE_PATH.$image?>" alt="">
             <p><?php echo $pname ?></p><br>
             <small>price:<?php echo $price?></small><br>
-           <span class="btn btn-danger btn-sm remove" onclick="manage_cart('<?php echo $key?>','remove')" ><i class="fa fa-trash"></i></span>
+           <button class="btn btn-danger btn-sm remove" onclick="manage_cart('<?php echo $key?>','remove')" ><i class="fa fa-trash"></i></button>
            </div>
         
         </td>
