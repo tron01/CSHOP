@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
 		
         $productArr=get_product($con,'','',$key);
 		$price=$productArr[0]['price'];
-        $seller_id=$productArr[0]['seller_id'];           
+                  
 		$qty=$val['qty'];
 		$cart_total=$cart_total+($price*$qty);
         
@@ -52,6 +52,8 @@ if(isset($_POST['submit'])){
         
         $pqty=$productArr[0]['qty'];
         $pid=$productArr[0]['id'];
+
+        $seller_id=$productArr[0]['seller_id'];
 		
         $qty=$val['qty'];
 
