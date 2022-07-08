@@ -2,7 +2,7 @@
 
 session_start();
 
-$con=mysqli_connect("localhost","root",""," eshop");
+$con=mysqli_connect("localhost","root","","eshop");
 define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/CSHOP/');
 define('SITE_PATH','http://127.0.0.1/CSHOP/');
 
