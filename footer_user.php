@@ -117,7 +117,7 @@
   <!--jquery-->
   <script src="js/jquery.js"></script>
   <!--jquery-->
-  <script src="js/jquery.bxslider.min.js"></script>
+  
   <!--jquery-->
  
   <!--jquery-->

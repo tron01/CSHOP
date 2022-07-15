@@ -26,7 +26,7 @@ while($row=mysqli_fetch_assoc($cat_res)){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cshop</title>
 
-  <link href="css/jquery.bxslider.min.css" rel="stylesheet">
+  
   <link href="css/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owl.theme.default.min.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
