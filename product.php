@@ -208,27 +208,32 @@ if(isset($_POST['review_submit'])){
 
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
-    
-                <div class="slider-area2">
-                    <div class="slider2">
-                      <!--slide1-->
-                      <div><a href="#">
-                          <img src="<?php echo PRODUCT_IMAGE_SITE_PATH.$get_product['0']['image'] ?>"></a>
-                        <div class="slider-content2">
-                          <h3 class="text-white text-capitalize">Lorem ipsum dolor sit amet consectetur.</h3>
-                        </div>
-                      </div>
-                      <!-- end slide1-->
-                      <div><a href="#">
-                          <img src="<?php echo PRODUCT_IMAGE_SITE_PATH.$get_product['0']['image'] ?>"></a>
-                      </div>
-                      <div><a href="#"><img src="<?php echo PRODUCT_IMAGE_SITE_PATH.$get_product['0']['image'] ?>"></a>
-                      </div>
-                    </div>
-
+            <div class="col-md-5"> 
+      
+      <!--slider area-->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src=" <?php echo PRODUCT_IMAGE_SITE_PATH.$get_product['0']['image'] ?>" class="d-block w-100" alt="...">
                   </div>
-            </div>
+                    <div class="carousel-item">
+                      <img src=" <?php echo PRODUCT_IMAGE_SITE_PATH.$get_product['0']['image'] ?>" class="d-block w-100" alt="...">
+                    </div>
+                   <div class="carousel-item">
+                     <img src=" <?php echo PRODUCT_IMAGE_SITE_PATH.$get_product['0']['image'] ?>" class="d-block w-100" alt="...">
+                   </div>
+               </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+         </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+        </button>
+    </div>
+     <!--end slider area-->
+   </div>
             <div class="col-md-7" style="background-color:#fff;">
                 
             <p class="newarrival text-center">NEW</p>
