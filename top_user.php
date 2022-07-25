@@ -27,12 +27,11 @@ while($row=mysqli_fetch_assoc($cat_res)){
   <title>Cshop</title>
 
   
-  <link href="css/owl.carousel.min.css" rel="stylesheet">
-  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+ 
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/nav.css" rel="stylesheet">
   <link href="css/all.min.css" rel="stylesheet">
-  <link href="css/brands.min.css" rel="stylesheet">
+ 
   
 
 

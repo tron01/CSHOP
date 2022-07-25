@@ -1,31 +1,31 @@
 body {
-  background:#fff;
+  background: #fff;
 }
- .brand::hover {
+.brand::hover {
   color: #fff;
 
   text-decoration: none;
 }
-
-.mt-10{
+.mt-10 {
   margin-top: 10px;
 }
-.mt-5{
+.mt-5 {
   margin-top: 5px;
 }
 
-.mb-5{
+.mb-5 {
   margin-bottom: 5px;
 }
 
-.mb-10{
+.mb-10 {
   margin-bottom: 10px;
 }
 
-.reviews{
-  background:#fff;
+.reviews {
+  background: #fff;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .brand::before {
@@ -37,25 +37,24 @@ body {
   bottom: 6px;
 }
 .user-menu:hover {
-  background-color: #DC143C;
+  background-color: #dc143c;
 }
-.textup{
+.textup {
   text-transform: uppercase;
 }
 
- .cart_num{
-  position:relative;
-  left:-5px;
-  top:-13px;
-
-  }
-  .select{
-    position: relative;
-    margin-top: 5px;
-    background: #fff;
-    padding: 10px;
-    border:1px solid silver;
-  }
+.cart_num {
+  position: relative;
+  left: -5px;
+  top: -13px;
+}
+.select {
+  position: relative;
+  margin-top: 5px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid silver;
+}
 
 /*sliderbox*/
 .slider-area {
@@ -152,7 +151,7 @@ d-flex {
 .imagebox a {
   cursor: pointer;
 }
-.imagebox{
+.imagebox {
   display: flex;
   justify-content: center;
 }
@@ -163,15 +162,14 @@ d-flex {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-   top: 70%;
-  
+  top: 70%;
+
   width: 100%;
   height: 250px;
- transition: 0.1s;
+  transition: 0.1s;
 }
 .cart-btn {
   margin: 130px 10px;
-  
 }
 .wish-btn {
   margin-left: 0;
@@ -196,7 +194,7 @@ d-flex {
   }
 
   .user-menu:hover {
-    background: #87CEFA;
+    background: #87cefa;
     border-radius: 9px;
   }
 
@@ -216,8 +214,6 @@ d-flex {
   .ml-400 {
     margin-left: 300px;
   }
-
- 
 
   /*sliderbox*/
   .slider-area {
@@ -256,9 +252,9 @@ d-flex {
     justify-items: center;
 
     background: rgba(0, 0, 0, 0.3);
-   
+
     top: -10px;
-    
+
     width: 100%;
     height: 250px;
     visibility: hidden;
@@ -270,7 +266,6 @@ d-flex {
   }
   .cart-btn {
     margin: 130px 10px;
-    
   }
   .wish-btn {
     margin-left: 0;
@@ -314,14 +309,11 @@ d-flex {
 }
 /*end of media*/
 
-
-
-
 /*Order details*/
-.order-details{
+.order-details {
   background: #f4f4f4;
 }
-.order-details .order-details__title{
+.order-details .order-details__title {
   padding: 30px 0;
   margin: 0 15px;
   border-bottom: 1px solid #ebebeb;
@@ -333,12 +325,12 @@ d-flex {
   font-weight: 600;
   color: #3f3f3f;
 }
-.order-details .order-details__item{
+.order-details .order-details__item {
   padding: 15px 0;
   margin: 0 30px;
   border-bottom: 1px solid #ebebeb;
 }
-.order-details .order-details__item .single-item{
+.order-details .order-details__item .single-item {
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -348,52 +340,50 @@ d-flex {
   align-items: center;
   padding: 5px;
 }
-.order-details .order-details__item .single-item .single-item__content{
+.order-details .order-details__item .single-item .single-item__content {
   flex-grow: 2;
 }
-.order-details .order-details__item .single-item .single-item__content a{
+.order-details .order-details__item .single-item .single-item__content a {
   font-size: 16px;
   font-family: "OldStandardTT";
   letter-spacing: 1px;
   color: #666;
   transition: all 0.3s ease-in-out 0s;
 }
-.order-details .order-details__item .single-item .single-item__content a:hover{
+.order-details .order-details__item .single-item .single-item__content a:hover {
   color: #c43b68;
 }
-.order-details .order-details__item .single-item .single-item__content span{
+.order-details .order-details__item .single-item .single-item__content span {
   font-family: "Poppins";
   font-weight: 600;
   display: block;
 }
-.order-details .order-details__item .single-item .single-item__thumb{
+.order-details .order-details__item .single-item .single-item__thumb {
   text-align: center;
   width: 60px;
   overflow: hidden;
   margin-right: 20px;
 }
-.order-details .order-details__item .single-item .single-item__thumb img{
-  
+.order-details .order-details__item .single-item .single-item__thumb img {
   width: 60px;
   overflow: hidden;
-  
 }
 
-.order-details .order-details__item .single-item .single-item__remove{
+.order-details .order-details__item .single-item .single-item__remove {
   width: 35px;
   text-align: center;
   font-size: 22px;
   color: #212121;
 }
-.order-details .order-details__item .single-item .single-item__remove a:hover{
+.order-details .order-details__item .single-item .single-item__remove a:hover {
   color: #f10;
 }
-.order-details .order-details__count{
+.order-details .order-details__count {
   margin: 0 30px;
   padding: 15px 0;
   border-bottom: 1px solid #ebebeb;
 }
-.order-details .order-details__count .order-details__count__single{
+.order-details .order-details__count .order-details__count__single {
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -403,23 +393,23 @@ d-flex {
   align-items: center;
   padding: 5px 0;
 }
-.order-details .order-details__count .order-details__count__single h5{
+.order-details .order-details__count .order-details__count__single h5 {
   color: #3f3f3f;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 600;
 }
-.order-details .order-details__count .order-details__count__single span.price{
+.order-details .order-details__count .order-details__count__single span.price {
   width: 30%;
   text-align: left;
   font-weight: 600;
   font-family: "Poppins";
 }
-.order-details .ordre-details__total{
+.order-details .ordre-details__total {
   margin: 0 30px;
   padding: 30px 0;
-  
+
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -428,14 +418,14 @@ d-flex {
   align-items: center;
   justify-content: space-between;
 }
-.order-details .ordre-details__total h5{
+.order-details .ordre-details__total h5 {
   color: #3f3f3f;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 700;
 }
-.order-details .ordre-details__total span.price{
+.order-details .ordre-details__total span.price {
   width: 30%;
   text-align: left;
   font-weight: 700;

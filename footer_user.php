@@ -121,7 +121,7 @@
   <!--jquery-->
  
   <!--jquery-->
-  <script src="js/bootstrap.bundle.min.js"></script>
+  
   <!--jquery-->
   <script src="js/bootstrap.min.js"></script>
   <!--fontawesomicon-->
